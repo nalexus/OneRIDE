@@ -356,7 +356,6 @@ def train(flags):
                 mean_return = ''
 
             total_loss = stats.get('total_loss', float('inf'))
-            # if stats:
             log.info('After %i frames: loss %f @ %.1f fps. %sStats:\n%s',
                      frames, total_loss, fps, mean_return, pprint.pformat(stats))
 
