@@ -1,9 +1,6 @@
 # OneRIDE:
 We propose a novel type of intrinsic reward based on RIDE and NoveID. All results plotted in diploma are in folder results_for_plots.
 
-## Citation
-If you use this code in your own work, please cite our paper:
-
 ## Installation
 
 ```
