@@ -29,8 +29,10 @@ OMP_NUM_THREADS=1 python main.py
 
 ```
 
+If you want to change environment - make corresponding changes in main.py (uncomment necessary env). If you want to train ride or nove_id, uncomment train_ride or train_bebold. If you chose node_id, you may comment all configs for OneRIDE in main function and uncomment those for NoveID, also change parser respectively.
+
 ## Acknowledgements
-Our algorithm is based on [RIDE](https://github.com/facebookresearch/impact-driven-exploration)
+Our implementation is based on [RIDE](https://github.com/facebookresearch/impact-driven-exploration).
 
 ## License
 This code is under the CC-BY-NC 4.0 (Attribution-NonCommercial 4.0 International) license.
